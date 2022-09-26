@@ -743,7 +743,6 @@ def home1():
         x[11] = maintainance
         x[12] = address_number
         x[29] = 1
-        x[30] = 1
 
         if fur_index >= 0:
             x[fur_index] = 1
