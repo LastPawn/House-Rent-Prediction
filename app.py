@@ -603,6 +603,7 @@ def home1():
         bhk = int(request.form['bedroom'])
         area = int(request.form['area'])
         locality = request.form['locality']
+        locality = locality.lower()
         pooja = request.form['pooja']
         servant = request.form['servant']
         lightbill = request.form['lightbill']
