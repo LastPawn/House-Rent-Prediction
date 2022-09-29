@@ -745,7 +745,7 @@ def home1():
 
         prediction = model.predict([x])
         rent = round(prediction[0])
-        return render_template("result.html", prediction_text=f"The approximate Rent is {rent} Rs.")
+        return render_template("result.html", prediction_text=f"Approximate Rent is {rent} Rs.")
 
     else:
         render_template('home.html')
