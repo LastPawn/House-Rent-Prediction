@@ -658,7 +658,7 @@ def home1():
         if furnishing == 'Unfurnished':
             furnishing = 'furnishing_Unfurnished'
         elif furnishing == 'Semifurnished':
-            #furnishing = 'furnishing_Semifurnished'
+            furnishing = 'furnishing_Semifurnished'
         else:
             furnishing = 'furnishing_Furnished'
 
